@@ -25,6 +25,12 @@ from ._ace_benchmark import (
     ACEPhone,
 )
 
+from ._personamem_benchmark import (
+    PersonaMemBenchmark,
+    PersonaMemMCQAccuracy,
+)
+
+
 __all__ = [
     "BenchmarkBase",
     "EvaluatorBase",
@@ -41,4 +47,6 @@ __all__ = [
     "ACEAccuracy",
     "ACEProcessAccuracy",
     "ACEPhone",
+    "PersonaMemBenchmark",
+    "PersonaMemMCQAccuracy",
 ]
